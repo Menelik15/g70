@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -8,8 +8,8 @@
     height: 100vh;
     background-color: aqua;
     display: grid;
-    grid-template-columns: 1fr, 7fr;
-    grid-template-rows: 1fr, 10fr;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 10fr;
 }
 .content > :nth-child(1){
     grid-column: span 2;
@@ -19,5 +19,5 @@
     background-color: rgb(53, 53, 132);
 }
 .content > :nth-child(3){
-    background-color: blue;
+    background-color: rgb(144, 144, 211);
 }
